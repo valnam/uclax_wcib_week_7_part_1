@@ -1,6 +1,25 @@
 body {
-	font-family: sans-serif;
+	font-family: Didot, serif;
 	margin: 20px;
+
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+
+	.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+	img {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+		padding-bottom: 10px;
+}
+
 
   .board {
   	background: yellow;
@@ -23,8 +42,46 @@ body {
     }
   }
 
-  .animal {
-    width: 100px;
+  .gender {
+    width: 600px;
     height: auto;
   }
+
+	h1 {
+		color: yellow;
+		text-align: center;
+	}
+
+	h2 {
+		color: whitesmoke;
+		text-align: center;
+	}
+
+	button {
+		font-family: Didot, serif;
+		text-align: center;
+		display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+		background-color: thistle;
+		border: white;
+		color: white;
+		padding: 10px;
+	}
+
+	#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px hotpink;
+	color: darkblue;
+	font-size: 60px;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+
+
 }
